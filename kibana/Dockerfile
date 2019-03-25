@@ -1,0 +1,2 @@
+ARG ELASTIC_KIBANA_VERSIONING
+FROM docker.elastic.co/kibana/kibana-oss:${ELASTIC_KIBANA_VERSIONING}
